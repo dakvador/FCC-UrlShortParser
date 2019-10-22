@@ -69,13 +69,6 @@ app.post("/", function(req,res){
 
 
 
-app.listen(8080);
+app.listen(3000);
 
 
-/*
-if(error){ throw error;res.send({"error":"invalid URL"});}
-data =  {"original_url":req.body.url_short,"short_url":urls.length +1}
-urls.push(data)
-res.send(data)
-
-*/
