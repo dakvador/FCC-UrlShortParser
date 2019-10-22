@@ -19,6 +19,10 @@ var urls =[{"original_url":'https://www.google.fr',"short_url":1},
 var site =""
 
 
+app.get("/", function(req,res){
+
+    res.sendFile(__dirname+'/index.html')
+})
 
 app.get("/new", function(req,res){
 
